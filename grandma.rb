@@ -32,3 +32,5 @@ def speak_to_grandma(expression)
     return "NO, NOT SINCE 1938!"
   end
 end
+
+speak_to_grandma(input_expression)
