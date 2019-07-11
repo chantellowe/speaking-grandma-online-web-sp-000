@@ -16,7 +16,6 @@
 
 #the expression to be used when running the method
 input_expression = "Hi Nana, how are you?"
-#input_phrase = "HI, GRANDMA. HOW ARE YOU?"
 
 def speak_to_grandma(expression)
   #check: is argument in all caps?
