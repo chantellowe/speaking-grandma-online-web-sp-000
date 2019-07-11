@@ -18,13 +18,17 @@
 input_expression = "I love you grandma!"
 
 def speak_to_grandma(expression)
-  #check: does argument equal same with all caps?
-  if expression == expression.upcase
-    
+  #check: is argument in all caps?
+  if expression != expression.upcase
+    #if no: return following
     return "HUH?! SPEAK UP, SONNY!"
-  elsif expression == "I LOVE YOU GRANDMA!" && expression.upcase == true
+  #check: is argument in all caps?
+  elsif expression == expression.upcase
+    #if yes: return following
     return "I LOVE YOU TOO PUMPKIN!"
+  #check: is any other case true of argument?
   else
+    #if yes: return following
     return "NO, NOT SINCE 1938!"
   end
 end
