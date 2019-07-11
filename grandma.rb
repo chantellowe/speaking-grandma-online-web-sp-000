@@ -14,12 +14,11 @@
 
 
 
-#the expression to be used
+#the expression to be used when running the method
 input_expression = "I love you grandma!"
 
-
 def speak_to_grandma(expression)
-  if expression.upcase == nil
+  if expression == expression.upcase
     return "HUH?! SPEAK UP, SONNY!"
   elsif expression == "I LOVE YOU GRANDMA!" && expression.upcase == true
     return "I LOVE YOU TOO PUMPKIN!"
