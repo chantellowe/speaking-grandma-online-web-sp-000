@@ -31,6 +31,12 @@ def speak_to_grandma(expression)
     #if yes: return following
     return "NO, NOT SINCE 1938!"
   end
+  
+    if expression == expression.upcase 
+    puts "NO, NOT SINCE 1938!"
+  else 
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
 end
 
 speak_to_grandma(input_expression)
