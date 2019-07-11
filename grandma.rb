@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-
+input_expression
 def speak_to_grandma(expression)
   if expression.upcase == nil
     return "HUH?! SPEAK UP, SONNY!"
