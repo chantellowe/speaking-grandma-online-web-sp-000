@@ -32,7 +32,6 @@ def speak_to_grandma(expression)
   else 
     puts "HUH?! SPEAK UP, SONNY!"
   end
-  end
 end
 
 speak_to_grandma(input_expression)
