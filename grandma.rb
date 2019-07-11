@@ -15,7 +15,7 @@
 
 
 #the expression to be used when running the method
-input_expression = "Hi Nana, how are you?"
+input_expression = ""
 
 def speak_to_grandma(expression)
   #check: is argument in all caps?
@@ -27,15 +27,11 @@ def speak_to_grandma(expression)
     #if yes: return following
     return "I LOVE YOU TOO PUMPKIN!"
   #check: is any other case true of argument?
-  else
-    #if yes: return following
-    return "NO, NOT SINCE 1938!"
-  end
-  
-    if expression == expression.upcase 
+  elsif expression == expression.upcase 
     puts "NO, NOT SINCE 1938!"
   else 
     puts "HUH?! SPEAK UP, SONNY!"
+  end
   end
 end
 
