@@ -14,24 +14,11 @@
 
 
 
-#the expression to be used when running the method
-input_expression = "I LOVE YOU GRANDMA!"
-
-def speak_to_grandma(expression)
-  #check: is argument in all caps?
-  if expression != expression.upcase
-    #if no: return following
-    return "HUH?! SPEAK UP, SONNY!"
-  #check: is argument in all caps?
-  elsif expression == expression.upcase
-    #if yes: return following
-    return "I LOVE YOU TOO PUMPKIN!"
-  #check: is any other case true of argument?
-  elsif expression == expression.upcase 
-    puts "NO, NOT SINCE 1938!"
-  else 
-    puts "HUH?! SPEAK UP, SONNY!"
+def speak_to_grandma(phrase)
+  if phrase == ""
+  elsif phrase == phrase.upcase
+    "NO, NOT SINCE 1938!"
+  else
+    "HUH?! SPEAK UP, SONNY!"
   end
 end
-
-speak_to_grandma(input_expression)
