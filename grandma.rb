@@ -16,8 +16,9 @@
 
 #the expression to be used when running the method
 input_expression = "I love you grandma!"
+input_phrase = 
 
-def speak_to_grandma(expression)
+def speak_to_grandma(expression, phrase)
   #check: is argument in all caps?
   if expression != expression.upcase
     #if no: return following
