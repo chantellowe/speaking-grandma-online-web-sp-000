@@ -16,7 +16,7 @@
 
 #the expression to be used when running the method
 input_expression = "I love you grandma!"
-input_phrase = 
+input_phrase = "HI, GRANDMA.HOW ARE YOU?"
 
 def speak_to_grandma(expression, phrase)
   #check: is argument in all caps?
@@ -34,4 +34,4 @@ def speak_to_grandma(expression, phrase)
   end
 end
 
-speak_to_grandma(input_expression)
+speak_to_grandma(input_expression, input_phrase)
