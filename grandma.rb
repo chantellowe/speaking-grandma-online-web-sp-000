@@ -15,10 +15,10 @@
 
 
 #the expression to be used when running the method
-input_expression = "I love you grandma!"
-input_phrase = "HI, GRANDMA.HOW ARE YOU?"
+input_expression = "Hi Nana, how are you?"
+#input_phrase = "HI, GRANDMA.HOW ARE YOU?"
 
-def speak_to_grandma(expression, phrase)
+def speak_to_grandma(expression)
   #check: is argument in all caps?
   if expression != expression.upcase
     #if no: return following
@@ -34,4 +34,4 @@ def speak_to_grandma(expression, phrase)
   end
 end
 
-speak_to_grandma(input_expression, input_phrase)
+speak_to_grandma(input_expression)
